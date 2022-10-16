@@ -1,4 +1,5 @@
 .sidebar {
+  padding-right: 4px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -11,8 +12,11 @@
   background-color: black;
 }
 
-.sidebar-top,
-.sidebar-bottom {
+svg {
+  fill: #ffff;
+}
+
+.sidebar-top {
   padding-right: 12px;
 }
 
@@ -22,6 +26,13 @@
   align-items: center;
   height: 50px;
   width: 50px;
+  border-radius: 26px;
+  transition: background-color 0.15s;
+  cursor: pointer;
+}
+
+.twitter-logo:hover {
+  background-color: rgba(0, 0, 255, 0.1);
 }
 
 .sidebar-menu-logo,
@@ -29,7 +40,16 @@
 .sidebar-menu-bell-logo {
   width: 26px;
   height: 26px;
+  border-radius: 26px;
   padding: 12px;
+  transition: background-color 0.15s;
+  cursor: pointer;
+}
+
+.sidebar-menu-logo:hover,
+.sidebar-menu-home-logo:hover,
+.sidebar-menu-bell-logo:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .sidebar-menu-home-logo {
@@ -72,6 +92,12 @@
   border-radius: 25px;
   margin-top: 4px;
   margin-bottom: 4px;
+  transition: background-color 0.15s;
+  cursor: pointer;
+}
+
+.tweet-button:hover {
+  background-color: rgba(29, 156, 240, 0.807);
 }
 
 .sidebar-profile-picture {
@@ -85,6 +111,19 @@
 .twitter-logo svg {
   width: 25px;
   height: 25px;
+}
+
+.sidebar-profile-picture-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+}
+
+.sidebar-profile-picture-container:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 
