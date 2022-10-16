@@ -1,9 +1,7 @@
 .sidebar {
   padding-right: 4px;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-between;
+  justify-content: end;
   position: fixed;
   top: 0;
   left: 0;
@@ -12,26 +10,41 @@
   background-color: black;
 }
 
-svg {
-  fill: #ffff;
+.menu-container {
+  width: 64px;
+  padding: 0 12px 0 12px;
 }
 
-.sidebar-top {
-  padding-right: 12px;
+.menu-icons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  fill: #ffff;
 }
 
 .twitter-logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
+  
+}
+
+.twitter-logo-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50px;
+  height: 50px;
   border-radius: 26px;
   transition: background-color 0.15s;
   cursor: pointer;
 }
 
-.twitter-logo:hover {
+.twitter-logo-svg:hover {
   background-color: rgba(0, 0, 255, 0.1);
 }
 
@@ -83,6 +96,13 @@ svg {
 }
 
 .tweet-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.tweet-button-svg {
   display: flex;
   justify-content: center;
   align-items: center;
