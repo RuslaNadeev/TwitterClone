@@ -1,0 +1,41 @@
+.header {
+  font-family: Arial;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 180px;
+  height: 53px;
+  background-color: black;
+  display: flex;
+
+}
+
+.main-page-title {
+  padding: 0 16px 0 16px;
+  display: flex;
+}
+
+.page-name {
+  color: white;
+  font-weight: bold;
+}
+
+.cool-icon {
+  width: 56px;
+  height: 53px;
+}
+
+.cool-icon-container {
+  width: 36px;
+  height: 36px;
+}
+
+.cool-icon-svg-container {
+  width: 34px;
+  height: 34px;
+}
+
+.cool-icon-svg-container svg {
+  width: 20px;
+  height: 20px;
+}
